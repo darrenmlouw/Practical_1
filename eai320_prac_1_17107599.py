@@ -1,4 +1,4 @@
-bfs_dfs = 0
+bfs_dfs = 1
 
 # Author: Louw DM
 # Student Number: 17107599
