@@ -1,7 +1,9 @@
 bfs_dfs = 1
 
 # Author: Louw DM
-# Student Number: 17107599
+#         17107599
+# Author: Labuschagne H
+#         17237808
 # Date Uploaded: Monday, 17 February 2020
 
 # python rpsrunner.py eai320_prac_1_17107599.py,breakable.py
