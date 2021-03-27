@@ -6,6 +6,9 @@ bfs_dfs = 1
 #         17237808
 # Date Uploaded: Monday, 17 February 2020
 
+# Most of the code in this file was done by Darren Louw. Due to both of our marks being similar for the previous
+# year's practical, we agreed to mainly use Darren's code from Practical 1 2020.
+
 # python rpsrunner.py eai320_prac_1_17107599.py,breakable.py
 
 # It is possible to lose a match because the maximum number of plays, if the break sequence is the last node in a tree
