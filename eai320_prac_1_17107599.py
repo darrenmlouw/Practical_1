@@ -1,10 +1,10 @@
-bfs_dfs = 1
+bfs_dfs = 0
 
 # Author: Louw DM
 #         17107599
 # Author: Labuschagne H
 #         17237808
-# Date Uploaded: Monday, 17 February 2020
+# Date Uploaded: Monday, 01 April 2021
 
 # Most of the code in this file was done by Darren Louw. Due to both of our marks being similar for the previous
 # year's practical, we agreed to mainly use Darren's code from Practical 1 2020.
@@ -168,6 +168,10 @@ if input == "":
 
     # This will be first round so we make the first output to be random as we have no data to play on
     previous = random.choice(["R", "P", "S"])
+
+
+    text = open("Log.txt","a")
+    Rounds = 0
 else:
     # Store the most recent object the the other bot played
     hist.pop(0)
@@ -208,10 +212,15 @@ else:
                 previous = "S"
             else:
                 previous = "R"
+
+                text.write(str(Rounds)+"\n")
+
         else:
             # If previous playas are not equal to each other then it must continue playing the paths
             # looking for a new break sequenc
             isBreakSequence = False
+
+            Rounds += 1
 
             if q:
                 if i == 0:
